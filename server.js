@@ -1,5 +1,8 @@
 // server.js
 const express = require('express');
+// Carrega as variáveis de ambiente do arquivo .env para process.env
+// Faça isso o mais cedo possível no seu aplicativo.
+require('dotenv').config();
 const cors = require('cors');
 const userRoutes = require('./src/routes/userRoutes');
 
@@ -22,4 +25,3 @@ app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
   console.log(`Acesse o front-end em http://localhost:${PORT}`);
 });
-
