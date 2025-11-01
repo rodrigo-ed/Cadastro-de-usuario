@@ -1,12 +1,12 @@
 # CadUsuaria
 
-O que era um simples projeto front-end, teninou se tornando FullStack. Este projeto conciste em cadastrar usuário em um banco de dados. 
+Esse projeto simula cadatro de cliente.
 
-# Desenvolvimento Front-End
+# Tecnologia Front-End
  - HTML
  - Bootstrap
 
- # Desenvolvimento Back-End
+ # Tecnologia Back-End
  - Node.js
  - Express.js
  - PostgreSQL
@@ -14,6 +14,5 @@ O que era um simples projeto front-end, teninou se tornando FullStack. Este proj
  # Hospedagem
  - Vercel
 
- # EStrutura do projeto
 
  
